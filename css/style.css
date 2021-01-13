@@ -3,13 +3,18 @@
     border: 3px solid black;
 }
 
-/* ^^^ moje ^^^ */
+.my-font, .my-font * {
+  font-weight: 700;
+  font-family: 'Rubik', sans-serif;
+  text-decoration-thickness: 3px;
+}
+
+/* ^^^ mine ^^^ */
 
 body {
   -webkit-font-smoothings: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  font-weight: 700;
 }
 
 code {
