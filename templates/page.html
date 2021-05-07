@@ -1,0 +1,47 @@
+{% extends "index.html" %}
+
+{% block head_extra %}
+    <style>
+      body {
+        {%- if page.extra.background -%}
+      	background: {{ page.extra.background }};
+        {%- endif -%}
+        {%- if page.extra.color -%}
+      	color: {{ page.extra.color }};
+        {%- endif -%}
+      }
+    </style>
+{% endblock head_extra %}
+
+{% block header %}
+{{ macros::breadcrumb(ancestors=page.ancestors) }}
+
+<div class="header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.date and not page.extra.hide_date %}
+    {{ macros::date(date=page.date) }}
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block main %}
+
+<div class="content">
+    {{ page.content | safe }}
+</div>
+{% endblock main %}
+
+{% block footer %}
+{{ super() }}
+{% if page.extra.comments %}
+<!-- comments -->
+<script src="https://utteranc.es/client.js"
+        repo="micouy/micouy.github.io"
+        issue-term="pathname"
+        label="comment-section"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+{% endif %}
+{% endblock %}

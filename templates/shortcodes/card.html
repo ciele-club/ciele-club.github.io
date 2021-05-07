@@ -1,0 +1,6 @@
+<div class="card">
+  <h2 class="title"><a href="{{ url }}">{{ title }}</a></h1>
+  {% if date %}
+  <span class="date">{{ date | date(format="%e %b %Y") }}</span>
+  {% endif %}
+</div>

@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+
+{% block header %}
+{{ macros::breadcrumb(ancestors=section.ancestors) }}
+<h1 class="section-title">{{ section.title }}</h1>
+{% endblock %}
+
+{% block main %}
+<div class="content">
+  {{ section.content | safe }}
+</div>
+
+<div class="posts">
+  {% for page in section.pages %}
+    {{ macros::card(url=page.path, title=page.title, date=page.date | default(value="")) }}
+  {% endfor %}
+</div>
+{% endblock main %}

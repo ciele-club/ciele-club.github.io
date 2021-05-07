@@ -1,0 +1,16 @@
+{% for key, author in config.extra.authors %}
+	<div class="author-div">
+    <h2 class="author" id="{{key}}">{{author.name}}</h2>
+    {% if author.avatar %}<img src="/avatars/{{author.avatar}}" class="avatar" alt="avatar"/>{% endif %}
+	</div>
+
+    {% if author.description %}
+        <p>{{author.description}}</p>
+    {% endif %}
+
+    {% if author.links %}
+        {% for link in author.links %}
+            <a href="{{ link.url }}">{{ link.name }}</a>
+        {% endfor %}
+    {% endif %}
+{% endfor %}

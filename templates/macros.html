@@ -1,0 +1,32 @@
+{% macro breadcrumb(ancestors, type="text") %}
+<div class="breadcrumb">
+{% for ancestor in ancestors %}
+      {% set ancestor_page = get_section(path=ancestor) %}
+      / <a href="{{ ancestor_page.path }}">{{ ancestor_page.title }}</a>
+{% endfor %}
+</div>
+{% endmacro %}
+
+{% macro banner(type="text") %}
+<div class="banner">
+  <svg width="100%" height="100%">
+    <pattern id="banner-pattern" x="0" y="0" width="100" height="27" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" patternTransform="translate(-10 -10) scale(1.1 1.1)">
+      <image href="/ciele.svg" width="100" height="30"></image>
+    </pattern>
+    <rect width="100%" height="100%" fill="url(#banner-pattern)"></rect>
+  </svg>
+</div>
+{% endmacro %}
+
+{% macro card(title, date="", url, type="text") %}
+<div class="card">
+  <h2 class="title"><a href="{{ url }}">{{ title }}</a></h1>
+  {% if date | length != 0 %}
+  {{ self::date(date=date) }}
+  {% endif %}
+</div>
+{% endmacro %}
+
+{% macro date(date, type="text") %}
+  <span class="date">{{ date | date(format="%e %b %Y") }}</span>
+{% endmacro %}

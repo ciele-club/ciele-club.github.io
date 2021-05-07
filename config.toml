@@ -1,0 +1,32 @@
+title = "cielę 🐄"
+base_url = "https://ciele-club.github.io/"
+compile_sass = true
+highlight_code = true
+build_search_index = false
+
+[extra]
+email = "ciele@protonmail.com"
+
+[extra.authors.nikola-swierczek]
+name = "Nikola Świerczek"
+links = [
+	{ name = "Instagram", url = "https://www.instagram.com/nikolaa_ek"}
+]
+avatar = "nikola-swierczek.jpg"
+description = "lubi żaby."
+
+[extra.authors.mikolaj-staniczek]
+name = "Mikołaj Staniczek"
+
+[extra.authors.mikolaj-powierza]
+name = "Mikołaj Powierża"
+avatar = "mikolaj-powierza.png"
+links = [
+	{ name = "GitHub", url = "https://github.com/micouy" },
+	{ name = "bl0g", url = "https://micouy.github.io/" }
+]
+
+[extra.authors.patrycja-martyniuk]
+name = "Patrycja Martyniuk"
+avatar = "patrycja-martyniuk.jpg"
+
