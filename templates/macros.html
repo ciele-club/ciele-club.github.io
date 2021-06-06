@@ -7,15 +7,19 @@
 </div>
 {% endmacro %}
 
-{% macro banner(type="text") %}
+{% macro svg_banner(src, type="text") %}
 <div class="banner">
   <svg width="100%" height="100%">
     <pattern id="banner-pattern" x="0" y="0" width="100" height="27" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" patternTransform="translate(-10 -10) scale(1.1 1.1)">
-      <image href="/ciele.svg" width="100" height="30"></image>
+      <image href="{{ src }}" width="100" height="30"></image>
     </pattern>
     <rect width="100%" height="100%" fill="url(#banner-pattern)"></rect>
   </svg>
 </div>
+{% endmacro %}
+
+{% macro banner(src, type="text") %}
+<img src="{{ src }}" class="banner" alt="banner">
 {% endmacro %}
 
 {% macro card(title, date="", url, type="text") %}
