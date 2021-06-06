@@ -144,10 +144,14 @@ p, li {
     width: 100%;
 }
 
-.content > img {
+.content > .image-link {
     width: auto;
-    margin: 3vw 0;
+    margin: 1em 0;
     object-fit: contain;
+}
+
+.content > video {
+    margin: 1em 0;
 }
 
 .card {

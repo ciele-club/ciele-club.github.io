@@ -30,3 +30,20 @@ links = [
 name = "Patrycja Martyniuk"
 avatar = "patrycja-martyniuk.jpg"
 
+[extra.authors.natalia-palac]
+name = "Natalia Pałac"
+avatar = "natalia-palac.jpg"
+links = [
+    { name = "Instagram", url = "https://www.instagram.com/masterofthepicsart" }
+]
+
+[extra.authors.hania-powierza]
+name = "Hania Powierża"
+
+[extra.authors.hania-jarlaczynska]
+name = "Hania Jarlaczyńska"
+avatar = "hania-jarlaczynska.jpg"
+links = [
+    { name = "GitHub", url = "https://github.com/hankaj" }
+]
+

@@ -1,6 +1,0 @@
-<p><a href="/">{{ config.page_title }}</a>
-{% for ancestor in ancestors %}
-  {% set ancestor_page = get_page(url=ancestor) %}
-  <a href="{{ ancestor }}">{{ ancestor_page.title }}</a>
-{% endfor %}
-</p>

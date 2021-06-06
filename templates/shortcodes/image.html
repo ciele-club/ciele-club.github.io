@@ -1,3 +1,4 @@
+<a class="image-link" href="{{ src }}">
 <img src="{{ src }}"
 	{% if alt -%} alt="{{ alt }}" {%- endif -%}
 	{% if class -%} class="{{ class }}" {%- endif -%}
@@ -8,6 +9,7 @@
     	{%- endif -%}
 	"
 >
+</a>
 {%- if desc -%}
 <p class="image-description">{{ desc }}</p>
 {%- endif -%}
