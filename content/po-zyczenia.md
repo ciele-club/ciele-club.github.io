@@ -18,7 +18,10 @@ hide_date = true
 - *Wysoko wrażliwi*; Elaine Aron
 
 ## Mikołaj Powierża
+- Miesięcznik *National Geographic Polska*, lata 2002-2015
 - *Archetypy i nieświadomość zbiorowa*; Carl Jung
+- *Typy psychologiczne*; Carl Jung
+- *Człowiek i jego symbole*; Carl Jung
 - *Opowieści z Narnii*, wszystkie części; C. S. Lewis
 - *12 Rules for life*; Jordan B. Peterson (wypożyczone)
 - M. C. Escher - grafiki
