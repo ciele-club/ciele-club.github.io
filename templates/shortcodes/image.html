@@ -1,15 +1,17 @@
-<a class="image-link" href="{{ src }}">
-<img src="{{ src }}"
-	{% if alt -%} alt="{{ alt }}" {%- endif -%}
-	{% if class -%} class="{{ class }}" {%- endif -%}
-	{% if id -%} id="{{ id }}" {%- endif -%}
-	style="
-    	{%- if maxh -%}
-    	max-height: {{ maxh }};
-    	{%- endif -%}
-	"
->
-</a>
-{%- if desc -%}
-<p class="image-description">{{ desc }}</p>
-{%- endif -%}
+<div class="media-wrapper">
+    <a class="image-link" href="{{ src }}">
+        <img src="{{ src }}"
+        	{% if alt -%} alt="{{ alt }}" {%- endif -%}
+        	{% if class -%} class="{{ class }}" {%- endif -%}
+        	{% if id -%} id="{{ id }}" {%- endif -%}
+            style="
+            	{%- if maxh -%}
+            	max-height: {{ maxh }};
+            	{%- endif -%}
+        	"
+        >
+    </a>
+    {%- if desc -%}
+    <p class="description">{{ desc }}</p>
+    {%- endif -%}
+</div>

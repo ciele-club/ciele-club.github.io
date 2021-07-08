@@ -40,6 +40,12 @@ links = [
 [extra.authors.hania-powierza]
 name = "Hania Powierża"
 
+[extra.authors.sara-szczepankowska]
+name = "Sara Szczepankowska"
+
+[extra.authors.zuzia-jarlaczynska]
+name = "Zuzia Jarlaczyńska"
+
 [extra.authors.hania-jarlaczynska]
 name = "Hania Jarlaczyńska"
 avatar = "hania-jarlaczynska.jpg"
