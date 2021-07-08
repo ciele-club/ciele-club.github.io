@@ -1,7 +1,7 @@
 +++
 date = 2021-07-06
 title = "numer Ⅲ"
-draft = true
+draft = false
 +++
 
 {{ post(authors=["hania-powierza"], title="Ogrodniczka i kapelutek") }}
