@@ -2,6 +2,7 @@
 title = "po życzenia"
 date = 2021-03-15T16:04:49+01:00
 draft = false
+weight = 3
 
 [extra]
 hide_date = true
