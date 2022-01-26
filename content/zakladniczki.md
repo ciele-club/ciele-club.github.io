@@ -8,7 +8,7 @@ weight = 2
 hide_date = true
 +++
 
-# kursy online
+# Kursy online
 
 - [The Theoretical Minimum: Quantum Mechanics](https://www.youtube.com/playlist?list=PL701CD168D02FF56F)
 - [Human Behavioral Biology](https://www.youtube.com/playlist?list=PL848F2368C90DDC3D)
@@ -16,43 +16,39 @@ hide_date = true
 - [The Psychological Significance of The Biblical Stories](https://www.youtube.com/playlist?list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat)
 - [Maps of Meaning: The Architecture of Belief](https://www.youtube.com/playlist?list=PL22J3VaeABQAT-0aSPq-OKOpQlHyR4k5h)
 
-# media na licencji CC0
+# Media na licencji CC0
 
-pamiętaj, żeby sprawdzić prawa autorskie w opisach
+Pamiętaj, żeby sprawdzić prawa autorskie w opisach.
 
 - [Biodiversity Heritage Library](https://flickr.com/photos/biodivlibrary/sets/) • [przykład](https://www.flickr.com/photos/biodivlibrary/6263521523/in/album-72157627293947110/)
 - [Muzeum Louvre](https://collections.louvre.fr/en/) • [przykład](https://collections.louvre.fr/en/ark:/53355/cl010056815)
 - [Old Book Illustrations](http://oldbookillustrations.com/) • [przykład](https://www.oldbookillustrations.com/illustrations/compassionate-children/)
 
-  > prawa autorskie trzeba sprawdzać w linku pod *Source*,
-  to zazwyczaj jest link to jakiegoś muzeum
+  > Prawa autorskie trzeba sprawdzać w linku pod *Source*,
+  to zazwyczaj jest link to jakiegoś muzeum.
 - [Rijksmuseum](https://www.rijksmuseum.nl/en/rijksstudio) • [przykład](https://www.rijksmuseum.nl/en/my/collections/3223991--kizilod/japanese-art/objecten#/RP-P-2000-348,3)
 - [Smithsonian Institution](http://collections.si.edu/search/) • [przykład](https://www.oldbookillustrations.com/illustrations/hana-saka-jiji/)
 
-  > żeby szukać tylko wśród eksponatów na licencji CC0,
-  w *Modify Your Search* w lewym menu wybierz *Search Options* i zaznacz *Only return results with CC0 media* •
-  przydatne jest też zaznaczenie *Only return results with online media*
+  > Żeby szukać tylko wśród eksponatów na licencji CC0,
+  w *Modify Your Search* w lewym menu wybierz *Search Options* i zaznacz *Only return results with CC0 media*.
+  Przydatne jest też zaznaczenie *Only return results with online media*.
 - [Odcinki programu *Sonda*](https://archive.org/details/sonda?sort=titleSorter)
 
-  > prawdopodobnie nie jest w domenie publicznej • możliwe, że użycie
-  w editach jest legalne, ale trzeba to sprawdzić
+  > Prawdopodobnie nie jest w domenie publicznej. Możliwe, że użycie
+  w editach jest legalne, ale trzeba to sprawdzić.
 - [British Newspaper Archive](https://www.britishnewspaperarchive.co.uk/)
 
 
 # książki za free
 
 - [Internet Archive](http://archive.org)
-
-  > część książek jest dostępna w PDfach
 - [z-lib](http://z-lib.org)
-
-  > spiracone PDFy
 - [Project Gutenberg](http://www.gutenberg.org/)
 - [MIT Press Open](https://mitpress.mit.edu/mit-press-open)
 
-  > żeby dostać się do darmowej wersji książki, naciśnij na nią,
+  > Żeby dostać się do darmowej wersji książki, naciśnij na nią,
   wejdź w **Open Access** (po prawej od *Overview Author(s) Praise*), a następnie znajdź
-  link do PDFa, np. **View on MIT Press Direct**
+  link do PDFa, np. **View on MIT Press Direct**.
 
 
 # artykuły / publikacje

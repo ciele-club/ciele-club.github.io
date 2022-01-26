@@ -1,9 +1,10 @@
-{% macro breadcrumb(ancestors, type="text") %}
+{% macro breadcrumb(ancestors, title, type="text") %}
 <div class="breadcrumb">
 {% for ancestor in ancestors %}
       {% set ancestor_page = get_section(path=ancestor) %}
-      / <a href="{{ ancestor_page.path }}">{{ ancestor_page.title }}</a>
+      <b><a href="{{ ancestor_page.path }}">{{ ancestor_page.title }}</a></b> /
 {% endfor %}
+<b>{{ title }}</b>
 </div>
 {% endmacro %}
 
@@ -13,7 +14,7 @@
 
 {% macro card(title, date="", url, type="text") %}
 <div class="card">
-  <h2 class="title"><a href="{{ url }}">{{ title }}</a></h1>
+  <h2><a href="{{ url }}">{{ title }}</a></h1>
   {% if date | length != 0 %}
   {{ self::date(date=date) }}
   {% endif %}

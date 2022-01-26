@@ -1,6 +1,6 @@
 +++
 date = 2021-07-06
-title = "numer Ⅲ"
+title = "numer III"
 draft = false
 +++
 
@@ -12,7 +12,9 @@ Ogrodniczka i kapelutek igły Hani Powierża.
 
 {{ image(src="hania-tyl.jpg") }}
 
----
+{{ post_ending() }}
+
+
 
 {{ post(authors=["zuzia-jarlaczynska"], title="🌧️⛈️🌧️🌧️") }}
 
@@ -34,7 +36,9 @@ Dla porównania, według WHO na drogach w wypadkach komunikacyjnych ginie średn
 
 Czy więc jest czego się bać? Chociaż przypadki śmierci na skutek porażenia piorunem są niewątpliwie spektakularne i medialne, to jednak zdarzają się relatywnie rzadko. Burza i pioruny mogą stanowić zagrożenie, jednak panika i paraliżujący strach w obliczu gromów na niebie nie są niczym uzasadnione, stanowią jedynie niechlubne dziedzictwo po naszych mniej świadomych i wyedukowanych przodkach. Bądź co bądź, mamy większą szansę na śmierć w wypadku komunikacyjnym w czasie drogi do pracy czy szkoły, a ta podróż zwykle nie spędza nam snu z powiek.
 
----
+{{ post_ending() }}
+
+
 
 {{ post(authors=["mikolaj-powierza", "sara-szczepankowska"], title="Laboratoria Inżynierii Biomedycznej — lekcja pokazowa") }}
 
@@ -80,6 +84,8 @@ Na koniec chciałbym zaprezentować inne zaawansowane techniki i przyrządy chem
 
 {{ image(src="mikolaj-jan-niezbedny.jpg", maxh="30rem", desc="Jan Niezbędny.") }}
 
----
+{{ post_ending() }}
+
+
 
 Dziękuję Zuzi, Hani i Sarze za materiał do tego numeru. 

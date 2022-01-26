@@ -1,5 +1,5 @@
 <div class="media-wrapper">
-    <a class="image-link" href="{{ src }}">
+    <a class="image-link" {% if big -%} href="{{ big }}" {%- else -%} href="{{ src }}" {%- endif %}>
         <img src="{{ src }}"
         	{% if alt -%} alt="{{ alt }}" {%- endif -%}
         	{% if class -%} class="{{ class }}" {%- endif -%}

@@ -18,6 +18,9 @@ mnóstwo nieplanowanych treści. Miłego przeglądania.
 
 {{ image(src="nikola-swierczek-dziewczynka.jpeg") }}
 
+{{ post_ending() }}
+
+
 
 {{ post(title="Okładka MBDTF", authors=["hania-jarlaczynska"]) }}
 
@@ -25,6 +28,9 @@ Wyszywana okładka [My Beautiful Dark Twisted Fantasy](https://open.spotify.com/
 albumu Kanyego Westa.
 
 {{ image(src="hania-jarlaczynska-mbdtf.jpg") }}
+
+{{ post_ending() }}
+
 
 
 {{ post(title="Topolowe Rozmaitości", authors=["natalia-palac", "hania-powierza", "mikolaj-powierza"]) }}
@@ -245,6 +251,10 @@ Pewnie myślisz, że cała ta historia nie ma sensu i jest zmyślona. Nic bardzi
 to jedna z podstawowych właściwości, którymi zajmuje się [topologia](https://pl.wikipedia.org/wiki/Topologia)
 — dziedzina matematyki nazwana tak na cześć Morfirego, który tworzył biżuterię z kwiatów topoli w swoim zakładzie
 [*Topolowe Rozmaitości*](https://pl.wikipedia.org/wiki/Rozmaito%C5%9B%C4%87_topologiczna).
+
+{{ post_ending() }}
+
+
 
 {{ post(title="Dziękuję", authors=[]) }}
 

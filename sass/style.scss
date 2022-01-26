@@ -1,15 +1,18 @@
 @import 'include-media';
 
-$font-family: 'Rubik', sans-serif;
+$bold-font: 'Montserrat', sans-serif;
+$reading-font: 'Literata', serif;
 $text-color: #000;
 $gray: #777;
+$light-gray: #bbb;
 
 $breakpoints: (medium: 560px, desktop: 1024px);
 
 body {
     padding: 5vw 2vw;
-
-    font-family: $font-family;
+	font-size: 17px;
+    font-family: $reading-font;
+	font-weight: 300;
     color: $text-color;
     transition: 70ms;
     line-height: 1.4;
@@ -26,9 +29,20 @@ pre {
     overflow-x: scroll;
 }
 
-a {
-    word-wrap: break-word;
-    text-decoration: underline;
+.content {
+    a {        word-wrap: break-word;
+        text-decoration: underline $light-gray;
+    	text-decoration-thickness: 1px;
+    	color: $text-color;
+    }
+
+    a:visited {
+    	color: $text-color;
+    }
+
+    a:hover {
+    	color: $gray;
+    }
 }
 
 ul {
@@ -79,6 +93,11 @@ p {
     }
 }
 
+@include headings {
+	font-family: $bold-font;
+	font-weight: 700;
+}
+
 .container {
     box-sizing: border-box;
     margin: 0 auto;
@@ -120,15 +139,26 @@ p, li {
     font-weight: bold;
 }
 
+.breadcrumb a, .breadcrumb b {
+	font-family: $bold-font;
+}
+
 .breadcrumb a {
     color: $text-color;
-    text-decoration: none;
-    box-shadow: 0 0.2em 0 $text-color;
-    padding: 0.1em 0;
+    text-decoration: 1px underline dashed;
+}
+
+.title {
+	font-family: $bold-font;
+	font-size: 3rem;
+	font-weight: 900;
+	margin: 0;
+	display: inline-block;
 }
 
 .header {
-    padding-bottom: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 }
 
 .content {
@@ -154,6 +184,12 @@ blockquote {
     margin: 0.2em 0;
 }
 
+.post-ending {
+	margin-top: 1.5rem;
+	margin-bottom: 3rem;
+	text-align: right;
+}
+
 .description {
     font-size: 0.9rem;
     color: $gray;
@@ -176,24 +212,29 @@ blockquote {
     object-fit: contain;
 }
 
+.date {
+    color: $gray;
+	white-space: nowrap;
+}
+
 .card {
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 
     a {
         color: $text-color;
+		text-decoration: 1px underline dashed;
     }
 
-    .title, .date {
+    h2, .date {
         margin-top: 0;
         margin-bottom: 0;
     }
 
-    .title {
+    h2 {
         display: inline-block;
     }
 
     .date {
-        color: $gray;
         font-size: 0.875rem;
     }
 }

@@ -5,9 +5,9 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="icon" href="/favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:wght@300;500&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
 
     <!-- Enable responsiveness on mobile devices-->
     <!-- viewport-fit=cover is to support iPhone X rounded corners and notch in landscape-->
@@ -26,31 +26,16 @@
   <body>
     <div class="container">
       {% block header %}
-      {{ macros::banner(src = "/banners/zlote-szare.jpg") }}
-      <h1 class="section-title">{{ section.title }}</h1>
       {% endblock header %}
 
       {% block main %}
-      <div class="content">
-      {{ section.content | safe }}
-      </div>
-
-      <div class="subpages">
-        {% for url in section.subsections %}
-          {%- set subsection = get_section(path=url) -%}
-          {{ macros::card(url=subsection.path, title=subsection.title) }}
-        {% endfor %}
-        {% for page in section.pages %}
-          {{ macros::card(url=page.path, title=page.title) }}
-        {% endfor %}
-      </div>
       {% endblock main %}
 
-      {% block footer %}
       <div class="footer">
+        {% block footer %}
+        {% endblock footer %}
         <p>{{ config.extra.email }}</p>
       </div>
-      {% endblock footer %}
     </div>
   </body>
 </html>

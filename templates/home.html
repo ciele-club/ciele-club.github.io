@@ -1,0 +1,22 @@
+{% extends "index.html" %}
+
+{% block header %}
+  {{ macros::banner(src = "/banners/zlote-szare.jpg") }}
+  <div class="header"><h1 class="title">{{ section.title }}</h1></div>
+{% endblock header %}
+
+{% block main %}
+  <div class="content">
+  {{ section.content | safe }}
+  </div>
+  
+  <div class="subpages">
+  {% for url in section.subsections %}
+    {%- set subsection = get_section(path=url) -%}
+    {{ macros::card(url=subsection.path, title=subsection.title) }}
+  {% endfor %}
+  {% for page in section.pages %}
+    {{ macros::card(url=page.path, title=page.title) }}
+  {% endfor %}
+  </div>
+{% endblock main %}
