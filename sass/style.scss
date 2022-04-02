@@ -44,6 +44,11 @@ pre {
     a:hover {
     	color: $gray;
     }
+
+    .anchor-link {
+        font-size: 2rem;
+        text-decoration: none;
+    }
 }
 
 ul {
@@ -54,38 +59,9 @@ p {
     margin: 0.2em 0;
 }
 
-.banner {
-    height: 7rem;
-    object-fit: cover;
-    border: 3px solid black;
-}
-
-.avatar {
-    margin-left: 0.5em;
-    vertical-align: middle;
-    display: inline;
-    height: 3em;
-    border-radius: 50%;
-}
-
-.author {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.author-link {
+.post-authors {
+    margin-bottom: 2rem;
     color: $gray;
-}
-
-
-.inline-icon {
-    display: inline-block;
-    height: 1em;
-    vertical-align: middle;
-}
-
-.anchor-link {
-    font-size: 2rem;
 }
 
 @mixin headings {
@@ -152,10 +128,24 @@ p, li {
 .title {
 	font-family: $bold-font;
 	font-size: 3rem;
-	font-weight: 900;
+	font-weight: 800;
 	margin: 0;
 	display: inline-block;
+    padding: 0 0.1em;
 }
+
+.title #init {
+    height: 0.7em;
+    display: inline-block;
+    background: black;
+    color: white;
+    vertical-align: middle;
+}
+
+.title #init span {
+    vertical-align: top;
+}
+
 
 .header {
 	margin-top: 2rem;
@@ -226,12 +216,12 @@ blockquote {
 		text-decoration: 1px underline dashed;
     }
 
-    h2, .date {
+    h1, .date {
         margin-top: 0;
         margin-bottom: 0;
     }
 
-    h2 {
+    h1 {
         display: inline-block;
     }
 
@@ -271,6 +261,14 @@ blockquote {
         flex-wrap: wrap;
         justify-content: space-between;
 	}
+}
+
+.footer a {
+    color: $gray;
+}
+
+.footer a:visited {
+    color: $gray;
 }
 
 .footer > * {

@@ -1,4 +1,4 @@
-title = "CIELĘ"
+title = "ciele৲"
 base_url = "https://ciele-club.github.io/"
 compile_sass = true
 highlight_code = true
@@ -6,50 +6,4 @@ build_search_index = false
 
 [extra]
 email = "ciele@protonmail.com"
-
-[extra.authors.nikola-swierczek]
-name = "Nikola Świerczek"
-links = [
-	{ name = "Instagram", url = "https://www.instagram.com/nikolaa_ek"}
-]
-avatar = "nikola-swierczek.jpg"
-description = "lubi żaby."
-
-[extra.authors.mikolaj-staniczek]
-name = "Mikołaj Staniczek"
-
-[extra.authors.mikolaj-powierza]
-name = "Mikołaj Powierża"
-avatar = "mikolaj-powierza.png"
-links = [
-	{ name = "GitHub", url = "https://github.com/micouy" },
-	{ name = "bl0g", url = "https://micouy.github.io/" }
-]
-
-[extra.authors.patrycja-martyniuk]
-name = "Patrycja Martyniuk"
-avatar = "patrycja-martyniuk.jpg"
-
-[extra.authors.natalia-palac]
-name = "Natalia Pałac"
-avatar = "natalia-palac.jpg"
-links = [
-    { name = "Instagram", url = "https://www.instagram.com/masterofthepicsart" }
-]
-
-[extra.authors.hania-powierza]
-name = "Hania Powierża"
-
-[extra.authors.sara-szczepankowska]
-name = "Sara Szczepankowska"
-
-[extra.authors.zuzia-jarlaczynska]
-name = "Zuzia Jarlaczyńska"
-
-[extra.authors.hania-jarlaczynska]
-name = "Hania Jarlaczyńska"
-avatar = "hania-jarlaczynska.jpg"
-links = [
-    { name = "GitHub", url = "https://github.com/hankaj" }
-]
-
+notion_url = "https://ciele-club.notion.site/"
